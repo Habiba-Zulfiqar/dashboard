@@ -1,0 +1,195 @@
+:root{
+  --blue:#096eb4;
+  --orange:#ec5125;
+}
+button{
+  width: 100%;
+}
+.btn1{
+  background-color:  var(--blue);
+}
+.btn2{
+  border-left: 2px solid var(--blue);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+.btn3{
+  border: 2px solid var(--blue); 
+  color: var(--blue);
+ 
+}
+.navbar-toggler-icon{
+  font-size:30px;
+  float: right;
+ 
+}
+.navbar-toggler{
+  border: none;
+ 
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .btn1{
+    display: none; 
+  }
+  .btn3{
+    display: none;  
+  }
+  .btn2{
+    display: none;}
+
+  .navbar-toggler-icon{
+      font-size:30px;
+      float: right;
+      margin-top: -70px;
+    }
+    .txt{
+      text-align: center;
+     }
+     .txt1{
+      text-align: center;
+     }
+     .pt-3{
+      display: none;
+        }
+    
+}
+@media (min-width: 481px) and (max-width: 768px){
+  .btn1{
+    display: none; 
+  }
+  .btn3{
+    display: none;  
+  }
+  .btn2{
+    display: none;}
+
+   .navbar-toggler-icon{
+      font-size:30px;
+      float: right;
+      margin-top: -70px;
+     
+    }
+    .txt{
+     text-align: center;
+    }
+    .txt1{
+      text-align: center;
+     }
+     
+      .pt-3{
+        display: none;
+          }
+   
+}
+@media (min-width: 769px) and (max-width: 1024px){
+  .btn1{
+    display: none; 
+  }
+  .btn3{
+    display: none;  
+  }
+  
+  .btn2{
+    display: none;
+  }
+  .pt-3{
+display: none;
+  }
+
+  .navbar-toggler-icon{
+      font-size:30px;
+      margin-top: -5px;
+      
+    }
+    .txt{
+      text-align: center;
+     }
+     .txt1{
+      text-align: center;
+     }
+     .navbar-toggler-icon{
+      float: right;}
+   
+}
+@media (min-width: 1025px) and (max-width: 1200px){
+  /* .btn1{
+    display: none; 
+  }
+  .btn3{
+    display: none;  
+  }
+  .btn2{
+    border-left:none;} */
+    
+    .navbar-toggler-icon{
+      float: right;
+    }
+    .txt1{
+      text-align: right;
+     }
+     .navbar-toggler-icon{
+      
+      float: right;}
+   
+}
+@media screen and (min-width:1201px) {
+  .txt1{
+    text-align: right;
+   }
+   .navbar-toggler-icon{
+      
+    float: right;}
+ 
+
+}
+
+.img1{
+  background-image:url("img1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.img2{
+  background-image:url("img2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.img3{
+  background-image:url("img3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.bord{
+  border:none;
+}
+.zero{
+  font-size: 55px;
+    color: white;
+    line-height: 1em;
+}
+.text{
+  margin-top: 15px;
+  font-size: 27px;
+  color: white;
+  line-height: 1em;
+ 
+}
+.text1{
+  margin-top: 15px;
+  font-size: 20px;
+  color: white;
+}
+.text2{
+ 
+  font-size: 15px;
+  color: white; 
+}
+.wifi{
+  align-content: center;
+  }
+  .lastbutton{
+    background-color: var(--orange);
+  }
